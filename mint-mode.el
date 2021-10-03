@@ -218,6 +218,7 @@
                                   (company-doc-buffer (format "'%s' is defined in mint-mode plugin" cand))) )) ))
 
 ;; Function for reformatting .mint source files
+;;;###autoload
 (defun mint-format-file ()
   "Formats current file using `mint format`."
 
